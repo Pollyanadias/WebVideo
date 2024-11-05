@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gradient-to-br from-red-800 to-yellow-200;
+    @apply bg-gradient-to-r from-black via-red-500 to-white;
 }
 
 

@@ -41,7 +41,7 @@ export default function Home() {
           <canvas className="w-full" ref={canvasRef} hidden={!showFilter}></canvas>
         </div>
 
-        <div className="bg-[#2b0707] w-[70%] flex flex-col items-center">
+        <div className="bg-[#000000] w-[70%] flex flex-col items-center">
           <input
             className="
               w-full mb-2
@@ -53,12 +53,12 @@ export default function Home() {
               [&::-webkit-slider-thumb]:h-[14px]
               [&::-webkit-slider-thumb]:w-[14px]
               [&::-webkit-slider-thumb]:rounded-full
-              [&::-webkit-slider-thumb]:bg-[#97eb66]
+              [&::-webkit-slider-thumb]:bg-[#ffffff]
               [&::-webkit-slider-thumb]:border-2
-              [&::-webkit-slider-thumb]:border-[#65ad4f]
+              [&::-webkit-slider-thumb]:border-[#ffffff]
               [&::-moz-range-progress]:bg-[#ff6e6e]
               [&::-webkit-slider-runnable-track]:bg-gradient-to-r
-              from-[#ff7474] to-[#d4ff37] // Para mostrar o progresso"
+              from-[#74ff7b] to-[#d4ff37] // Para mostrar o progresso"
 
             type="range"
             min="0"
@@ -81,7 +81,7 @@ export default function Home() {
               </button>
             </div>
             <div>
-              <h1 className="grid place-items-center italic text-white">Volume</h1>
+              <h1 className="grid place-items-center text-white">Volume</h1>
               <input
                 type="range"
                 min={0}

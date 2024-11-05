@@ -13,17 +13,17 @@ const videos: Video[] = [
     {
         videoURL: "video/video02.mp4",
         imageURL: "image/image02.jpg",
-        description: "Caramelldansen - caramella girls"
+        description: "Not my Fault - Reneé Rapp"
     },
     {
         videoURL: "video/video03.mp4",
         imageURL: "image/image03.jpg",
-        description: "Dragon Ball Saisen"
+        description: "Taste - Sabrina Carpenter"
     },
     {
         videoURL: "video/video04.mp4",
         imageURL: "image/image04.jpg",
-        description: "Nikclemeep"
+        description: "Shameless - Camila Cabello"
     }
 ]
 export default videos;
